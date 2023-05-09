@@ -206,3 +206,17 @@ h3 {
     outline-style: solid;
     margin-right: 64px;
 }
+
+
+/* Footer */
+
+.footer {
+    background: #1F2937;
+    padding: 32px;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: center;
+}
