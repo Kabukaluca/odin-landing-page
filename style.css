@@ -145,10 +145,8 @@ h3 {
     color: #1F2937;
     font-style: italic;
     padding-top: 64px;
-    
     max-width: 800px;
     align-self: center;
-    
 }
 
 .author {
@@ -157,4 +155,54 @@ h3 {
     align-self: center;
     padding-bottom: 64px;
     font-weight: bold;
+}
+
+
+/* Section4 */
+
+.section4 {
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    background-color: #3882F6;
+    padding: 16px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    border-radius: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bannerhead {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.subtext-banner {
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.button2 {
+    padding: 8px 32px;
+    color: #E5E7EB;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    outline: #F9FAF8;
+    outline-style: solid;
+    margin-right: 64px;
 }
