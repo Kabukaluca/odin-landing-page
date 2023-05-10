@@ -1,20 +1,24 @@
 /* Section 1 */
 .body {
     height: 100vh;
-    margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
     background-color: #F9FAF8;
   }
 
-.header {
+  .top {
     background-color: #1F2937;
+    align-items: center;
+    padding-left: 128px;
+    padding-right: 128px;
+  }
+
+.header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding-bottom: 64px;
+    justify-content: space-between;
+
 }
 
 .logo {
@@ -28,6 +32,7 @@ ul {
     color: #E5E7EB;
     display: flex;
     gap: 24px;
+    margin-bottom: 0;
 }
 
 a {
@@ -35,13 +40,11 @@ a {
     text-decoration: none;
 }
 
-
 .section1 {
-    background-color: #1F2937;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-bottom: 64px;
+    padding-top: 64px;
 }
 
 .left {
@@ -66,7 +69,7 @@ h1 {
 }
 
 .placeholder {
-    max-width: 600px;
+    max-width: 500px;
     height: 250px;
     background-color: #E5E7EB;
     display: flex;
@@ -135,26 +138,27 @@ h3 {
 
 .section3 {
     background-color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
 }
 
 .quote {
-    
+    display: flex;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
     padding-top: 64px;
     max-width: 800px;
-    align-self: center;
+    margin: auto;
 }
 
 .author {
     display: flex;
-    padding-left: 550px;
     align-self: center;
     padding-bottom: 64px;
     font-weight: bold;
+    justify-content: right;
+    margin-right: 350px;
+
+    
 }
 
 
@@ -168,7 +172,7 @@ h3 {
 .banner {
     display: flex;
     background-color: #3882F6;
-    padding: 16px;
+    padding: 32px 64px;
     max-width: 800px;
     margin: auto;
     margin-top: 64px;
@@ -176,7 +180,7 @@ h3 {
     border-radius: 8px;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .bannerhead {
@@ -204,7 +208,6 @@ h3 {
     border-radius: 8px;
     outline: #F9FAF8;
     outline-style: solid;
-    margin-right: 64px;
 }
 
 
